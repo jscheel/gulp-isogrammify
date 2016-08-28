@@ -1,0 +1,33 @@
+{
+  "name": "gulp-isogrammify",
+  "version": "0.0.1",
+  "description": "Gulp wrapper for awesome isogrammify library (https://github.com/ThomasR/isogrammify)",
+  "license": "MIT",
+  "repository": "jscheel/gulp-isogrammify",
+  "author": {
+    "name": "Jared A. Scheel",
+    "email": "jared@jaredscheel.com",
+    "url": "http://jaredscheel.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo --space && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "isogrammify": "^1.1.0",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "xo": "^0.14.0"
+  }
+}
